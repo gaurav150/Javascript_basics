@@ -69,4 +69,5 @@ Promise.all([promise, promise2]).then((results) => {
 }).finally(() => {
     console.log("Promise.all operation completed.");
 });
-
+}
+// Promise
