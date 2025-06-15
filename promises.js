@@ -26,7 +26,7 @@ let promise2 = new Promise((resolve, reject) => {
             reject("Second promise rejected!");
         }
     }, 2000);
-
+});
 // Usage
 promise.then((result)=> {
     console.log(result);
@@ -69,5 +69,3 @@ Promise.all([promise, promise2]).then((results) => {
 }).finally(() => {
     console.log("Promise.all operation completed.");
 });
-}
-// Promise
